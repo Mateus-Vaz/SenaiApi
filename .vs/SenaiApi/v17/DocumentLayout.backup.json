@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:controllers\\escolacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\repositorios\\escolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:repositorios\\escolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\servicos\\escolaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:servicos\\escolaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\servicos\\interfaces\\iescolaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:servicos\\interfaces\\iescolaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\repositorios\\interfaces\\iescolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:repositorios\\interfaces\\iescolarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\mappers\\escolamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:mappers\\escolamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\dtos\\escoladtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:dtos\\escoladtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\contexto\\senaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:contexto\\senaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\senaiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:senaiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\migrations\\20250510143901_meu commit inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:migrations\\20250510143901_meu commit inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|c:\\users\\mateus_v_santos\\source\\repos\\senaiapi\\entidades\\serieenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28888D7A-95AE-40B6-BC30-087465593AB1}|SenaiApi.csproj|solutionrelative:entidades\\serieenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SenaiApi",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\SenaiApi.csproj",
+              "RelativeDocumentMoniker": "SenaiApi.csproj",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\SenaiApi.csproj",
+              "RelativeToolTip": "SenaiApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T11:13:24.409Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EscolaMapper.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Mappers\\EscolaMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\EscolaMapper.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Mappers\\EscolaMapper.cs",
+              "RelativeToolTip": "Mappers\\EscolaMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:23:49.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EscolaDTos.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\DTos\\EscolaDTos.cs",
+              "RelativeDocumentMoniker": "DTos\\EscolaDTos.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\DTos\\EscolaDTos.cs",
+              "RelativeToolTip": "DTos\\EscolaDTos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:15:16.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEscolaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Repositorios\\Interfaces\\IEscolaRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\Interfaces\\IEscolaRepository.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Repositorios\\Interfaces\\IEscolaRepository.cs",
+              "RelativeToolTip": "Repositorios\\Interfaces\\IEscolaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:41:20.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEscolaService.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Servicos\\Interfaces\\IEscolaService.cs",
+              "RelativeDocumentMoniker": "Servicos\\Interfaces\\IEscolaService.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Servicos\\Interfaces\\IEscolaService.cs*",
+              "RelativeToolTip": "Servicos\\Interfaces\\IEscolaService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:59:01.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EscolaServices.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Servicos\\EscolaServices.cs",
+              "RelativeDocumentMoniker": "Servicos\\EscolaServices.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Servicos\\EscolaServices.cs",
+              "RelativeToolTip": "Servicos\\EscolaServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:41:40.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EscolaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Repositorios\\EscolaRepository.cs",
+              "RelativeDocumentMoniker": "Repositorios\\EscolaRepository.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Repositorios\\EscolaRepository.cs",
+              "RelativeToolTip": "Repositorios\\EscolaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:41:15.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EscolaController.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Controllers\\EscolaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EscolaController.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Controllers\\EscolaController.cs*",
+              "RelativeToolTip": "Controllers\\EscolaController.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:40:48.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T11:25:19.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:19:40.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250510143901_Meu Commit Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Migrations\\20250510143901_Meu Commit Inicial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250510143901_Meu Commit Inicial.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Migrations\\20250510143901_Meu Commit Inicial.cs",
+              "RelativeToolTip": "Migrations\\20250510143901_Meu Commit Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:39:01.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SenaiContext.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Contexto\\SenaiContext.cs",
+              "RelativeDocumentMoniker": "Contexto\\SenaiContext.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Contexto\\SenaiContext.cs",
+              "RelativeToolTip": "Contexto\\SenaiContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:00:41.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Escola.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Escola.cs",
+              "RelativeDocumentMoniker": "Entidades\\Escola.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Escola.cs",
+              "RelativeToolTip": "Entidades\\Escola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:10:11.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Professor.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Professor.cs",
+              "RelativeDocumentMoniker": "Entidades\\Professor.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Professor.cs",
+              "RelativeToolTip": "Entidades\\Professor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:10:02.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entidades\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\BaseEntity.cs",
+              "RelativeToolTip": "Entidades\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:24:17.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SerieEnum.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\SerieEnum.cs",
+              "RelativeDocumentMoniker": "Entidades\\SerieEnum.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\SerieEnum.cs",
+              "RelativeToolTip": "Entidades\\SerieEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:17:05.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Classe.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Classe.cs",
+              "RelativeDocumentMoniker": "Entidades\\Classe.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Classe.cs",
+              "RelativeToolTip": "Entidades\\Classe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:10:33.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Endereco.cs",
+              "RelativeDocumentMoniker": "Entidades\\Endereco.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Endereco.cs",
+              "RelativeToolTip": "Entidades\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:10:23.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Aluno.cs",
+              "RelativeDocumentMoniker": "Entidades\\Aluno.cs",
+              "ToolTip": "C:\\Users\\mateus_v_santos\\source\\repos\\SenaiApi\\Entidades\\Aluno.cs",
+              "RelativeToolTip": "Entidades\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:09:48.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

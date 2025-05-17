@@ -1,0 +1,12 @@
+﻿using SenaiApi.DTos;
+using SenaiApi.Entidades;
+
+namespace SenaiApi.Servicos.Interface.cs
+{
+    public interface IEscolaService
+    {
+        List<EscolaDTos> BuscarTodos();
+        void Salvar(EscolaDTos escola);
+       
+    }
+}
