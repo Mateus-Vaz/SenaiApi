@@ -113,3 +113,4 @@ C:\Users\mateus_v_santos\source\repos\SenaiApi\bin\Debug\net8.0\Swashbuckle.AspN
 C:\Users\mateus_v_santos\source\repos\SenaiApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\mateus_v_santos\source\repos\SenaiApi\obj\Debug\net8.0\SenaiApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mateus_v_santos\source\repos\SenaiApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\mateus_v_santos\source\repos\SenaiApi\obj\Debug\net8.0\SenaiApi.sourcelink.json

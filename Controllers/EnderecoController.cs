@@ -1,19 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SenaiApi.DTos;
-using SenaiApi.Entidades;
-using SenaiApi.Servicos;
 using SenaiApi.Servicos.Interface.cs;
+using SenaiApi.Servicos.Interfaces;
 
 namespace SenaiApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class EscolaController : ControllerBase
+    public class EnderecoController : ControllerBase
     {
-        private readonly IEscolaService _escolaService;
-        public EscolaController(IEscolaService escolaService)
+        private readonly IEnderecoService _enderecoService;
+        public EnderecoController(IEnderecoService enderecoService)
         {
-            _escolaService = escolaService;
+            _enderecoService = enderecoService;
         }
 
         [HttpGet]
@@ -23,33 +22,34 @@ namespace SenaiApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Adicionar(EscolaDTos escola)
+        public IActionResult Adicionar(EnderecoDTo endereco)
         {
-            _escolaService.Salvar(escola);
+            _enderecoService.Salvar(endereco);
             return Ok();
         }
+
         [HttpGet("buscar todos")]
         public IActionResult Buscar()
         {
-            var escolas = _escolaService.BuscarTodos();
-            return Ok(escolas);
+            var enderecos = _enderecoService.BuscarTodos();
+            return Ok(enderecos);
         }
         [HttpPost]
         [Route("Editar")]
-        public IActionResult Editar([FromBody] EscolaEdicaoDTo escola)
+        public IActionResult Editar([FromBody] EnderecoDTo endereco)
         {
-            if (escola == null)
+            if (endereco == null)
             {
                 return BadRequest("Escola não pode ser nua");
             }
-             _escolaService.Editar(escola);
+            _enderecoService.Editar(endereco);
             return Ok();
         }
 
         [HttpDelete]
         public async Task<IActionResult> Remover(long id)
         {
-           await _escolaService.Remover(id);
+            await _enderecoService.Remover(id);
             return Ok();
         }
     }

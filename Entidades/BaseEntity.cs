@@ -7,7 +7,5 @@ namespace SenaiApi.Entidades
         [Key]
         public long Id { get; set; }
 
-       
-
     }
 }

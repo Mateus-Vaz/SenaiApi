@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using SenaiApi.DTos;
 using SenaiApi.Entidades;
+using SenaiApi.Repositorios;
 using SenaiApi.Repositorios.Interfaces;
 using SenaiApi.Servicos.Interface.cs;
 
@@ -27,6 +28,17 @@ namespace SenaiApi.Servicos
             var escolas = _escolaRepository.PegarTodos();
             return _mapper.Map<List<EscolaDTos>>(escolas);
 
+        }
+        public void Editar(EscolaEdicaoDTo model)
+        {
+            var escola = _escolaRepository.ObterPorId(model.Id);
+            _mapper.Map(model, escola);
+
+            _escolaRepository.Salvar(escola);
+        }
+        public async Task<bool> Remover(long id)
+        {
+           return await _escolaRepository.Remover(id);
         }
     }
 

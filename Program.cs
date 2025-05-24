@@ -4,6 +4,7 @@ using SenaiApi.Repositorios;
 using SenaiApi.Repositorios.Interfaces;
 using SenaiApi.Servicos;
 using SenaiApi.Servicos.Interface.cs;
+using SenaiApi.Servicos.Interfaces;
 
 namespace SenaiApi
 {
@@ -23,6 +24,9 @@ namespace SenaiApi
             builder.Services.AddDbContext<SenaiContext>();
             builder.Services.AddScoped<IEscolaService, EscolaServices>();
             builder.Services.AddScoped<IEscolaRepository, EscolaRepository>();
+            builder.Services.AddScoped<IEnderecoService, EnderecoService>();
+            builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+
 
             MapperConfiguration mapperConfiguration = new(mapperConfig => { mapperConfig.AddMaps(new[] { "SenaiApi" }); });
             builder.Services.AddSingleton(mapperConfiguration.CreateMapper());

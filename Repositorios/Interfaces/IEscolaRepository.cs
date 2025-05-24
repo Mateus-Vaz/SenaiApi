@@ -8,5 +8,9 @@ namespace SenaiApi.Repositorios.Interfaces
         public List<Escola> PegarTodos();
 
         void Salvar(Escola escola);
+
+        Task<bool> Remover(long id);
+
+        Escola ObterPorId(long id);
     }
 }
