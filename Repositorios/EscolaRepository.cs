@@ -8,10 +8,10 @@ using SenaiApi.Repositorios.Interfaces;
 
 namespace SenaiApi.Repositorios
 {
-    public class EscolaRepository : IEscolaRepository
+    public class EscolaRepository : BaseRepository<Escola>, IEscolaRepository
     {
         private readonly SenaiContext _context;
-        public EscolaRepository(SenaiContext context)
+        public EscolaRepository(SenaiContext context) : base(context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace SenaiApi.Repositorios
         }
         public List<Escola> PegarTodos()
         {
-            return _context.Escola.ToList();
+            return base.PegarTodos();
         }
         public async Task<bool> Remover(long id)
         {
@@ -52,7 +52,7 @@ namespace SenaiApi.Repositorios
         }
         public List<Escola> ObterTodos()
         {
-            return _context.Escola.ToList();
+            return base.ObterTodos().ToList();
         }
     }
 }

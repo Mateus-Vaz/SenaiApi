@@ -4,24 +4,24 @@ using SenaiApi.Entidades;
 
 namespace SenaiApi.Repositorios.Interfaces
 {
-    public class EnderecoRepository : BaseRepository<Endereco>, IEnderecoRepository
+    public class ProfessorRepository : BaseRepository<Professor>, IProfessorRepository
     {
         private readonly SenaiContext _context;
-        public EnderecoRepository(SenaiContext context) : base(context) 
+        public ProfessorRepository(SenaiContext context) : base(context)
         {
             _context = context;
         }
-        public void Salvar(Endereco endereco)
+        public void Salvar(Professor professor)
         {
-            if (endereco.Id == 0)
-                _context.Endereco.Add(endereco);
+            if (professor.Id == 0)
+                _context.Professor.Add(professor);
             else
-                _context.Endereco.Update(endereco);
+                _context.Professor.Update(professor);
 
             _context.SaveChanges();
 
         }
-        public List<Endereco> PegarTodos()
+        public List<Professor> PegarTodos()
         {
             return base.PegarTodos();
         }
@@ -30,7 +30,7 @@ namespace SenaiApi.Repositorios.Interfaces
             try
 
             {
-                await _context.Endereco.Where(u => u.Id == id).ExecuteDeleteAsync();
+                await _context.Professor.Where(u => u.Id == id).ExecuteDeleteAsync();
 
                 return true;
 
@@ -41,13 +41,15 @@ namespace SenaiApi.Repositorios.Interfaces
             }
 
         }
-        public Endereco ObterPorId(long id)
+        public Professor ObterPorId(long id)
         {
-            return _context.Endereco.FirstOrDefault(e => e.Id == id);
+            return _context.Professor.FirstOrDefault(e => e.Id == id);
         }
-        public List<Endereco> ObterTodos()
+        public List<Professor> ObterTodos()
         {
             return base.ObterTodos().ToList();
         }
     }
 }
+    
+
