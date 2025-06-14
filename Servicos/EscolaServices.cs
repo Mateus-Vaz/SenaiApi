@@ -29,16 +29,13 @@ namespace SenaiApi.Servicos
             return _mapper.Map<List<EscolaDTos>>(escolas);
 
         }
-        public void Editar(EscolaEdicaoDTo model)
-        {
-            var escola = _escolaRepository.ObterPorId(model.Id);
-            _mapper.Map(model, escola);
-
-            _escolaRepository.Salvar(escola);
-        }
         public async Task<bool> Remover(long id)
         {
            return await _escolaRepository.Remover(id);
+        }
+        public Escola ObterPorId(long id)
+        {
+            return _escolaRepository.ObterPorId(id);
         }
     }
 

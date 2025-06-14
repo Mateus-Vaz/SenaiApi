@@ -79,7 +79,7 @@
   },
   {
     "ContainingType": "SenaiApi.Controllers.EscolaController",
-    "Method": "Adicionar",
+    "Method": "Salvar",
     "RelativePath": "Escola",
     "HttpMethod": "POST",
     "IsController": true,
@@ -112,7 +112,7 @@
   {
     "ContainingType": "SenaiApi.Controllers.EscolaController",
     "Method": "Buscar",
-    "RelativePath": "Escola/buscar todos",
+    "RelativePath": "Escola/buscar-todos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -121,16 +121,16 @@
   },
   {
     "ContainingType": "SenaiApi.Controllers.EscolaController",
-    "Method": "Editar",
-    "RelativePath": "Escola/Editar",
-    "HttpMethod": "POST",
+    "Method": "PegarPorId",
+    "RelativePath": "Escola/PegarPorId",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "escola",
-        "Type": "SenaiApi.DTos.EscolaEdicaoDTo",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
