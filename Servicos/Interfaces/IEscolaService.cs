@@ -10,7 +10,7 @@ namespace SenaiApi.Servicos.Interface.cs
         void Salvar(EscolaDTos escola);
 
         Task<bool> Remover(long id);
-     
-        Escola ObterPorId(long id);
+
+        EscolaDTos ObterPorId(long id);
     }
 }

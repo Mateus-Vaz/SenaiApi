@@ -33,9 +33,10 @@ namespace SenaiApi.Servicos
         {
            return await _escolaRepository.Remover(id);
         }
-        public Escola ObterPorId(long id)
+        public EscolaDTos ObterPorId(long id)
         {
-            return _escolaRepository.ObterPorId(id);
+            var escola = _escolaRepository.ObterPorId(id);
+            return _mapper.Map<EscolaDTos>(escola);
         }
     }
 

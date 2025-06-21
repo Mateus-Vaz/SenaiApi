@@ -396,6 +396,9 @@
           "nome": {
             "type": "string",
             "nullable": true
+          },
+          "endereco": {
+            "$ref": "#/components/schemas/EnderecoDTo"
           }
         },
         "additionalProperties": false

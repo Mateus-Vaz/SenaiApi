@@ -48,7 +48,7 @@ namespace SenaiApi.Repositorios
         }
         public Escola ObterPorId(long id)
         {
-            return _context.Escola.FirstOrDefault(e => e.Id == id);
+            return _context.Escola.Include(c => c.Endereco).FirstOrDefault(e => e.Id == id);
         }
         public List<Escola> ObterTodos()
         {

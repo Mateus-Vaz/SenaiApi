@@ -8,11 +8,11 @@ namespace SenaiApi.Mappers
     {
         public EscolaMapper()
         {
-            CreateMap<EscolaDTos, Escola>()
-                  .ForMember(dest => dest.Nome,opt => opt.MapFrom(src=>src.Nome))
-                  .ReverseMap();
-
+            CreateMap<EscolaDTos, Escola>().ReverseMap();
+                  
             CreateMap<EscolaEdicaoDTo, Escola>().ReverseMap();
+
+            CreateMap<EnderecoDTo, Endereco>().ReverseMap();
 
         }
     }
