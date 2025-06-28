@@ -20,8 +20,8 @@ namespace SenaiApi.Migrations
             //  oldType: "character varying(50)",
             //  oldMaxLength: 50);
             migrationBuilder.Sql(@"
-            ALTERE TABLE ""eNDERECO""
-            ALTERE COLUMN ""Cidade"" TYPE integer
+            ALTER TABLE ""Endereco""
+            ALTER COLUMN ""Cidade"" TYPE integer
             USING ""Cidade""::integer;");
         }
 

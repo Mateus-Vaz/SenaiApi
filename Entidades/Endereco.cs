@@ -9,7 +9,6 @@ namespace SenaiApi.Entidades
         [MaxLength(80)]
         public string Bairro { get; set; }
        
-        [MaxLength(60)]
         public int Cidade { get; set; }
         
         [MaxLength(60)]
